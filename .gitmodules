@@ -1,0 +1,12 @@
+[submodule "Walnut-cmake/vendor/glm"]
+	path = Walnut-cmake/vendor/glm
+	url = https://github.com/g-truc/glm
+[submodule "Walnut-cmake/vendor/glfw"]
+	path = Walnut-cmake/vendor/glfw
+	url = https://github.com/glfw/glfw
+[submodule "vendor/imgui"]
+	path = RayTracing/Walnut-cmake/vendor/imgui
+	url = https://github.com/Mr-Precise/imgui
+[submodule "Walnut-cmake/vendor/imgui"]
+	path = Walnut-cmake/vendor/imgui
+	url = https://github.com/Mr-Precise/imgui
