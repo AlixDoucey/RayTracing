@@ -25,6 +25,12 @@
 /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src/CMakeFiles/install.dir
 /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src/CMakeFiles/install/local.dir
 /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src/CMakeFiles/install/strip.dir
+/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/docs/CMakeFiles/edit_cache.dir
+/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/docs/CMakeFiles/rebuild_cache.dir
+/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/docs/CMakeFiles/list_install_components.dir
+/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/docs/CMakeFiles/install.dir
+/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/docs/CMakeFiles/install/local.dir
+/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/docs/CMakeFiles/install/strip.dir
 /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir
 /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/imgui/CMakeFiles/edit_cache.dir
 /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/imgui/CMakeFiles/rebuild_cache.dir
@@ -38,6 +44,7 @@
 /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glm/CMakeFiles/install.dir
 /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glm/CMakeFiles/install/local.dir
 /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glm/CMakeFiles/install/strip.dir
+/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glm/glm/CMakeFiles/glm.dir
 /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glm/glm/CMakeFiles/edit_cache.dir
 /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glm/glm/CMakeFiles/rebuild_cache.dir
 /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glm/glm/CMakeFiles/list_install_components.dir

@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: RayTracing
-# Configurations: 
+# Configurations: Debug
 # =============================================================================
 
 #############################################
@@ -20,6 +20,11 @@
 
 ninja_required_version = 1.5
 
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
 # =============================================================================
 # Include auxiliary files.
 
@@ -270,186 +275,186 @@ build Walnut-cmake/vendor/glfw/CMakeFiles/uninstall | ${cmake_ninja_workdir}Waln
 
 build cmake_object_order_depends_target_glfw: phony || .
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/context.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/context.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/context.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/context.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/context.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall -Wdeclaration-after-statement
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/init.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/init.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/init.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/init.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall -Wdeclaration-after-statement
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/input.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/input.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/input.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/input.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall -Wdeclaration-after-statement
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall -Wdeclaration-after-statement
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/platform.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/platform.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/platform.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/platform.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall -Wdeclaration-after-statement
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall -Wdeclaration-after-statement
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/window.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/window.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/window.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/window.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall -Wdeclaration-after-statement
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall -Wdeclaration-after-statement
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall -Wdeclaration-after-statement
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_init.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_init.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_init.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall -Wdeclaration-after-statement
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall -Wdeclaration-after-statement
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_window.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_window.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_window.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall -Wdeclaration-after-statement
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall -Wdeclaration-after-statement
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/posix_module.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/posix_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/posix_time.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/posix_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/posix_thread.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/posix_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/x11_init.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/x11_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/x11_monitor.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/x11_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/x11_window.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/x11_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/xkb_unicode.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/xkb_unicode.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/glx_context.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/glx_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/linux_joystick.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/linux_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
 
-build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o: C_COMPILER__glfw_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/posix_poll.c || cmake_object_order_depends_target_glfw
+build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o: C_COMPILER__glfw_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/posix_poll.c || cmake_object_order_depends_target_glfw
   DEFINES = -D_DEFAULT_SOURCE -D_GLFW_X11
   DEP_FILE = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o.d
-  FLAGS = -std=c99 -fPIC -Wall
+  FLAGS = -g -std=c99 -fPIC -Wall
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src -I/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
@@ -460,13 +465,14 @@ build Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o: C_COMPILE
 
 
 #############################################
-# Link the static library bin/-Linux-x64/libglfw3.a
+# Link the static library bin/Debug-Linux-x64/libglfw3.a
 
-build bin/-Linux-x64/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_ Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/context.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/init.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/input.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/platform.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/window.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_init.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_window.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o
+build bin/Debug-Linux-x64/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/context.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/init.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/input.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/monitor.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/platform.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/vulkan.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/window.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/egl_context.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_init.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_monitor.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_window.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/null_joystick.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_module.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_time.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_thread.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/x11_init.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/x11_monitor.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/x11_window.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/xkb_unicode.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/glx_context.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/linux_joystick.c.o Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir/posix_poll.c.o
+  LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = Walnut-cmake/vendor/glfw/src/CMakeFiles/glfw.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = bin/-Linux-x64/libglfw3.a
+  TARGET_FILE = bin/Debug-Linux-x64/libglfw3.a
   TARGET_PDB = glfw3.a.dbg
 
 
@@ -551,6 +557,77 @@ build Walnut-cmake/vendor/glfw/src/CMakeFiles/update_mappings | ${cmake_ninja_wo
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
+# /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build Walnut-cmake/vendor/glfw/docs/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/docs && /usr/bin/ccmake -S/home/alix/Documents/RayTracing -B/home/alix/Documents/RayTracing/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build Walnut-cmake/vendor/glfw/docs/edit_cache: phony Walnut-cmake/vendor/glfw/docs/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Walnut-cmake/vendor/glfw/docs/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/docs && /usr/bin/cmake --regenerate-during-build -S/home/alix/Documents/RayTracing -B/home/alix/Documents/RayTracing/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Walnut-cmake/vendor/glfw/docs/rebuild_cache: phony Walnut-cmake/vendor/glfw/docs/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build Walnut-cmake/vendor/glfw/docs/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build Walnut-cmake/vendor/glfw/docs/CMakeFiles/install.util: CUSTOM_COMMAND Walnut-cmake/vendor/glfw/docs/all
+  COMMAND = cd /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/docs && /usr/bin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build Walnut-cmake/vendor/glfw/docs/install: phony Walnut-cmake/vendor/glfw/docs/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build Walnut-cmake/vendor/glfw/docs/CMakeFiles/install/local.util: CUSTOM_COMMAND Walnut-cmake/vendor/glfw/docs/all
+  COMMAND = cd /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/docs && /usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build Walnut-cmake/vendor/glfw/docs/install/local: phony Walnut-cmake/vendor/glfw/docs/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build Walnut-cmake/vendor/glfw/docs/CMakeFiles/install/strip.util: CUSTOM_COMMAND Walnut-cmake/vendor/glfw/docs/all
+  COMMAND = cd /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/docs && /usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build Walnut-cmake/vendor/glfw/docs/install/strip: phony Walnut-cmake/vendor/glfw/docs/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
 # /home/alix/Documents/RayTracing/Walnut-cmake/CMakeLists.txt
 # =============================================================================
 
@@ -563,37 +640,37 @@ build Walnut-cmake/vendor/glfw/src/CMakeFiles/update_mappings | ${cmake_ninja_wo
 
 build cmake_object_order_depends_target_imgui: phony || .
 
-build Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui/imgui.cpp || cmake_object_order_depends_target_imgui
+build Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui/imgui.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o.d
-  FLAGS = -m64
+  FLAGS = -m64 -g
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui
   OBJECT_DIR = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir
 
-build Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui/imgui_demo.cpp || cmake_object_order_depends_target_imgui
+build Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui/imgui_demo.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o.d
-  FLAGS = -m64
+  FLAGS = -m64 -g
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui
   OBJECT_DIR = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir
 
-build Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui/imgui_draw.cpp || cmake_object_order_depends_target_imgui
+build Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui/imgui_draw.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o.d
-  FLAGS = -m64
+  FLAGS = -m64 -g
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui
   OBJECT_DIR = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir
 
-build Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui/imgui_tables.cpp || cmake_object_order_depends_target_imgui
+build Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui/imgui_tables.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o.d
-  FLAGS = -m64
+  FLAGS = -m64 -g
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui
   OBJECT_DIR = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir
 
-build Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o: CXX_COMPILER__imgui_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_imgui
+build Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o: CXX_COMPILER__imgui_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_imgui
   DEP_FILE = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o.d
-  FLAGS = -m64
+  FLAGS = -m64 -g
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui
   OBJECT_DIR = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir
   OBJECT_FILE_DIR = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir
@@ -604,14 +681,14 @@ build Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o: CXX_CO
 
 
 #############################################
-# Link the static library bin/-Linux-x64/libimgui.a
+# Link the static library bin/Debug-Linux-x64/libimgui.a
 
-build bin/-Linux-x64/libimgui.a: CXX_STATIC_LIBRARY_LINKER__imgui_ Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o
-  LANGUAGE_COMPILE_FLAGS = -m64
+build bin/Debug-Linux-x64/libimgui.a: CXX_STATIC_LIBRARY_LINKER__imgui_Debug Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui.cpp.o Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o
+  LANGUAGE_COMPILE_FLAGS = -m64 -g
   OBJECT_DIR = Walnut-cmake/vendor/imgui/CMakeFiles/imgui.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = bin/-Linux-x64/libimgui.a
+  TARGET_FILE = bin/Debug-Linux-x64/libimgui.a
   TARGET_PDB = imgui.a.dbg
 
 
@@ -756,6 +833,38 @@ build Walnut-cmake/vendor/glm/install/strip: phony Walnut-cmake/vendor/glm/CMake
 # /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm/CMakeLists.txt
 # =============================================================================
 
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target glm
+
+
+#############################################
+# Order-only phony target for glm
+
+build cmake_object_order_depends_target_glm: phony || .
+
+build Walnut-cmake/vendor/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.o: CXX_COMPILER__glm_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm/glm/detail/glm.cpp || cmake_object_order_depends_target_glm
+  DEP_FILE = Walnut-cmake/vendor/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.o.d
+  FLAGS = -m64 -g
+  INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm
+  OBJECT_DIR = Walnut-cmake/vendor/glm/glm/CMakeFiles/glm.dir
+  OBJECT_FILE_DIR = Walnut-cmake/vendor/glm/glm/CMakeFiles/glm.dir/detail
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target glm
+
+
+#############################################
+# Link the static library bin/Debug-Linux-x64/libglm.a
+
+build bin/Debug-Linux-x64/libglm.a: CXX_STATIC_LIBRARY_LINKER__glm_Debug Walnut-cmake/vendor/glm/glm/CMakeFiles/glm.dir/detail/glm.cpp.o
+  LANGUAGE_COMPILE_FLAGS = -m64 -g
+  OBJECT_DIR = Walnut-cmake/vendor/glm/glm/CMakeFiles/glm.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bin/Debug-Linux-x64/libglm.a
+  TARGET_PDB = glm.a.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -834,39 +943,39 @@ build Walnut-cmake/vendor/glm/glm/install/strip: phony Walnut-cmake/vendor/glm/g
 #############################################
 # Order-only phony target for Walnut
 
-build cmake_object_order_depends_target_Walnut: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_imgui
+build cmake_object_order_depends_target_Walnut: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm cmake_object_order_depends_target_imgui
 
-build Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Application.cpp.o: CXX_COMPILER__Walnut_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src/Walnut/Application.cpp || cmake_object_order_depends_target_Walnut
+build Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Application.cpp.o: CXX_COMPILER__Walnut_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src/Walnut/Application.cpp || cmake_object_order_depends_target_Walnut
   DEP_FILE = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Application.cpp.o.d
-  FLAGS = -m64 -std=c++17
+  FLAGS = -m64 -g -std=c++17
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/stb_image -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/Walnut -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/PRIVATE -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src/Walnut/ImGui -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm
   OBJECT_DIR = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir
   OBJECT_FILE_DIR = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut
 
-build Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/ImGui/ImGuiBuild.cpp.o: CXX_COMPILER__Walnut_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src/Walnut/ImGui/ImGuiBuild.cpp || cmake_object_order_depends_target_Walnut
+build Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/ImGui/ImGuiBuild.cpp.o: CXX_COMPILER__Walnut_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src/Walnut/ImGui/ImGuiBuild.cpp || cmake_object_order_depends_target_Walnut
   DEP_FILE = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/ImGui/ImGuiBuild.cpp.o.d
-  FLAGS = -m64 -std=c++17
+  FLAGS = -m64 -g -std=c++17
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/stb_image -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/Walnut -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/PRIVATE -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src/Walnut/ImGui -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm
   OBJECT_DIR = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir
   OBJECT_FILE_DIR = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/ImGui
 
-build Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Image.cpp.o: CXX_COMPILER__Walnut_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src/Walnut/Image.cpp || cmake_object_order_depends_target_Walnut
+build Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Image.cpp.o: CXX_COMPILER__Walnut_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src/Walnut/Image.cpp || cmake_object_order_depends_target_Walnut
   DEP_FILE = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Image.cpp.o.d
-  FLAGS = -m64 -std=c++17
+  FLAGS = -m64 -g -std=c++17
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/stb_image -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/Walnut -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/PRIVATE -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src/Walnut/ImGui -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm
   OBJECT_DIR = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir
   OBJECT_FILE_DIR = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut
 
-build Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Input/Input.cpp.o: CXX_COMPILER__Walnut_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src/Walnut/Input/Input.cpp || cmake_object_order_depends_target_Walnut
+build Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Input/Input.cpp.o: CXX_COMPILER__Walnut_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src/Walnut/Input/Input.cpp || cmake_object_order_depends_target_Walnut
   DEP_FILE = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Input/Input.cpp.o.d
-  FLAGS = -m64 -std=c++17
+  FLAGS = -m64 -g -std=c++17
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/stb_image -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/Walnut -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/PRIVATE -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src/Walnut/ImGui -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm
   OBJECT_DIR = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir
   OBJECT_FILE_DIR = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Input
 
-build Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Random.cpp.o: CXX_COMPILER__Walnut_unscanned_ /home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src/Walnut/Random.cpp || cmake_object_order_depends_target_Walnut
+build Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Random.cpp.o: CXX_COMPILER__Walnut_unscanned_Debug /home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src/Walnut/Random.cpp || cmake_object_order_depends_target_Walnut
   DEP_FILE = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Random.cpp.o.d
-  FLAGS = -m64 -std=c++17
+  FLAGS = -m64 -g -std=c++17
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/stb_image -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/Walnut -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/PRIVATE -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src/Walnut/ImGui -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm
   OBJECT_DIR = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir
   OBJECT_FILE_DIR = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut
@@ -877,14 +986,14 @@ build Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Random.cpp.o: CXX_COM
 
 
 #############################################
-# Link the static library bin/-Linux-x64/libWalnut.a
+# Link the static library bin/Debug-Linux-x64/libWalnut.a
 
-build bin/-Linux-x64/libWalnut.a: CXX_STATIC_LIBRARY_LINKER__Walnut_ Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Application.cpp.o Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/ImGui/ImGuiBuild.cpp.o Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Image.cpp.o Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Input/Input.cpp.o Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Random.cpp.o || bin/-Linux-x64/libglfw3.a bin/-Linux-x64/libimgui.a
-  LANGUAGE_COMPILE_FLAGS = -m64
+build bin/Debug-Linux-x64/libWalnut.a: CXX_STATIC_LIBRARY_LINKER__Walnut_Debug Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Application.cpp.o Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/ImGui/ImGuiBuild.cpp.o Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Image.cpp.o Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Input/Input.cpp.o Walnut-cmake/Walnut/CMakeFiles/Walnut.dir/src/Walnut/Random.cpp.o || bin/Debug-Linux-x64/libglfw3.a bin/Debug-Linux-x64/libglm.a bin/Debug-Linux-x64/libimgui.a
+  LANGUAGE_COMPILE_FLAGS = -m64 -g
   OBJECT_DIR = Walnut-cmake/Walnut/CMakeFiles/Walnut.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = bin/-Linux-x64/libWalnut.a
+  TARGET_FILE = bin/Debug-Linux-x64/libWalnut.a
   TARGET_PDB = Walnut.a.dbg
 
 
@@ -965,11 +1074,11 @@ build Walnut-cmake/Walnut/install/strip: phony Walnut-cmake/Walnut/CMakeFiles/in
 #############################################
 # Order-only phony target for RayTracing
 
-build cmake_object_order_depends_target_RayTracing: phony || cmake_object_order_depends_target_Walnut cmake_object_order_depends_target_glfw cmake_object_order_depends_target_imgui
+build cmake_object_order_depends_target_RayTracing: phony || cmake_object_order_depends_target_Walnut cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm cmake_object_order_depends_target_imgui
 
-build RayTracing/CMakeFiles/RayTracing.dir/src/WalnutApp.cpp.o: CXX_COMPILER__RayTracing_unscanned_ /home/alix/Documents/RayTracing/RayTracing/src/WalnutApp.cpp || cmake_object_order_depends_target_RayTracing
+build RayTracing/CMakeFiles/RayTracing.dir/src/WalnutApp.cpp.o: CXX_COMPILER__RayTracing_unscanned_Debug /home/alix/Documents/RayTracing/RayTracing/src/WalnutApp.cpp || cmake_object_order_depends_target_RayTracing
   DEP_FILE = RayTracing/CMakeFiles/RayTracing.dir/src/WalnutApp.cpp.o.d
-  FLAGS = -m64 -std=c++17
+  FLAGS = -m64 -g -std=c++17
   INCLUDES = -I/home/alix/Documents/RayTracing/Walnut-cmake/Walnut/src -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/include -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui -I/home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm
   OBJECT_DIR = RayTracing/CMakeFiles/RayTracing.dir
   OBJECT_FILE_DIR = RayTracing/CMakeFiles/RayTracing.dir/src
@@ -980,17 +1089,17 @@ build RayTracing/CMakeFiles/RayTracing.dir/src/WalnutApp.cpp.o: CXX_COMPILER__Ra
 
 
 #############################################
-# Link the executable bin/-Linux-x64/RayTracing
+# Link the executable bin/Debug-Linux-x64/RayTracing
 
-build bin/-Linux-x64/RayTracing: CXX_EXECUTABLE_LINKER__RayTracing_ RayTracing/CMakeFiles/RayTracing.dir/src/WalnutApp.cpp.o | bin/-Linux-x64/libWalnut.a /lib/libvulkan.so bin/-Linux-x64/libglfw3.a /usr/lib/libGL.so /usr/lib/librt.a /usr/lib/libm.so bin/-Linux-x64/libimgui.a || bin/-Linux-x64/libWalnut.a bin/-Linux-x64/libglfw3.a bin/-Linux-x64/libimgui.a
+build bin/Debug-Linux-x64/RayTracing: CXX_EXECUTABLE_LINKER__RayTracing_Debug RayTracing/CMakeFiles/RayTracing.dir/src/WalnutApp.cpp.o | bin/Debug-Linux-x64/libWalnut.a /lib/libvulkan.so bin/Debug-Linux-x64/libglfw3.a /usr/lib/libGL.so /usr/lib/librt.a /usr/lib/libm.so bin/Debug-Linux-x64/libimgui.a bin/Debug-Linux-x64/libglm.a || bin/Debug-Linux-x64/libWalnut.a bin/Debug-Linux-x64/libglfw3.a bin/Debug-Linux-x64/libglm.a bin/Debug-Linux-x64/libimgui.a
   DEP_FILE = RayTracing/CMakeFiles/RayTracing.dir/link.d
-  FLAGS = -m64
+  FLAGS = -m64 -g
   LINK_FLAGS = -rdynamic  -Wl,--dependency-file=RayTracing/CMakeFiles/RayTracing.dir/link.d
-  LINK_LIBRARIES = bin/-Linux-x64/libWalnut.a  -lvulkan  bin/-Linux-x64/libglfw3.a  -lGL  -Wl,-Bstatic  -lrt  -Wl,-Bdynamic  -lm  -ldl  bin/-Linux-x64/libimgui.a
+  LINK_LIBRARIES = bin/Debug-Linux-x64/libWalnut.a  -lvulkan  bin/Debug-Linux-x64/libglfw3.a  -lGL  -Wl,-Bstatic  -lrt  -Wl,-Bdynamic  -lm  -ldl  bin/Debug-Linux-x64/libimgui.a  bin/Debug-Linux-x64/libglm.a
   OBJECT_DIR = RayTracing/CMakeFiles/RayTracing.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = bin/-Linux-x64/RayTracing
+  TARGET_FILE = bin/Debug-Linux-x64/RayTracing
   TARGET_PDB = RayTracing.dbg
 
 
@@ -1062,19 +1171,23 @@ build RayTracing/install/strip: phony RayTracing/CMakeFiles/install/strip.util
 # =============================================================================
 # Target aliases.
 
-build RayTracing: phony bin/-Linux-x64/RayTracing
+build RayTracing: phony bin/Debug-Linux-x64/RayTracing
 
-build Walnut: phony bin/-Linux-x64/libWalnut.a
+build Walnut: phony bin/Debug-Linux-x64/libWalnut.a
 
-build glfw: phony bin/-Linux-x64/libglfw3.a
+build glfw: phony bin/Debug-Linux-x64/libglfw3.a
 
-build imgui: phony bin/-Linux-x64/libimgui.a
+build glm: phony bin/Debug-Linux-x64/libglm.a
 
-build libWalnut.a: phony bin/-Linux-x64/libWalnut.a
+build imgui: phony bin/Debug-Linux-x64/libimgui.a
 
-build libglfw3.a: phony bin/-Linux-x64/libglfw3.a
+build libWalnut.a: phony bin/Debug-Linux-x64/libWalnut.a
 
-build libimgui.a: phony bin/-Linux-x64/libimgui.a
+build libglfw3.a: phony bin/Debug-Linux-x64/libglfw3.a
+
+build libglm.a: phony bin/Debug-Linux-x64/libglm.a
+
+build libimgui.a: phony bin/Debug-Linux-x64/libimgui.a
 
 build uninstall: phony Walnut-cmake/vendor/glfw/uninstall
 
@@ -1095,7 +1208,7 @@ build all: phony Walnut-cmake/all RayTracing/all
 #############################################
 # Folder: /home/alix/Documents/RayTracing/build/RayTracing
 
-build RayTracing/all: phony bin/-Linux-x64/RayTracing
+build RayTracing/all: phony bin/Debug-Linux-x64/RayTracing
 
 # =============================================================================
 
@@ -1109,21 +1222,28 @@ build Walnut-cmake/all: phony Walnut-cmake/vendor/glfw/all Walnut-cmake/vendor/i
 #############################################
 # Folder: /home/alix/Documents/RayTracing/build/Walnut-cmake/Walnut
 
-build Walnut-cmake/Walnut/all: phony bin/-Linux-x64/libWalnut.a
+build Walnut-cmake/Walnut/all: phony bin/Debug-Linux-x64/libWalnut.a
 
 # =============================================================================
 
 #############################################
 # Folder: /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw
 
-build Walnut-cmake/vendor/glfw/all: phony Walnut-cmake/vendor/glfw/src/all
+build Walnut-cmake/vendor/glfw/all: phony Walnut-cmake/vendor/glfw/src/all Walnut-cmake/vendor/glfw/docs/all
+
+# =============================================================================
+
+#############################################
+# Folder: /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/docs
+
+build Walnut-cmake/vendor/glfw/docs/all: phony
 
 # =============================================================================
 
 #############################################
 # Folder: /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/src
 
-build Walnut-cmake/vendor/glfw/src/all: phony bin/-Linux-x64/libglfw3.a
+build Walnut-cmake/vendor/glfw/src/all: phony bin/Debug-Linux-x64/libglfw3.a
 
 # =============================================================================
 
@@ -1137,14 +1257,14 @@ build Walnut-cmake/vendor/glm/all: phony Walnut-cmake/vendor/glm/glm/all
 #############################################
 # Folder: /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glm/glm
 
-build Walnut-cmake/vendor/glm/glm/all: phony
+build Walnut-cmake/vendor/glm/glm/all: phony bin/Debug-Linux-x64/libglm.a
 
 # =============================================================================
 
 #############################################
 # Folder: /home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/imgui
 
-build Walnut-cmake/vendor/imgui/all: phony bin/-Linux-x64/libimgui.a
+build Walnut-cmake/vendor/imgui/all: phony bin/Debug-Linux-x64/libimgui.a
 
 # =============================================================================
 # Built-in targets
@@ -1153,14 +1273,14 @@ build Walnut-cmake/vendor/imgui/all: phony bin/-Linux-x64/libimgui.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/alix/Documents/RayTracing/CMakeLists.txt /home/alix/Documents/RayTracing/RayTracing/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/Walnut/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMake/cmake_uninstall.cmake.in /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMake/glfw3.pc.in /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMake/glfw3Config.cmake.in /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm/glm/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui/CMakeLists.txt /usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeDependentOption.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckFunctionExists.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindDoxygen.cmake /usr/share/cmake/Modules/FindFontconfig.cmake /usr/share/cmake/Modules/FindFreetype.cmake /usr/share/cmake/Modules/FindOpenGL.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindVulkan.cmake /usr/share/cmake/Modules/FindX11.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/alix/Documents/RayTracing/CMakeLists.txt /home/alix/Documents/RayTracing/RayTracing/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/Walnut/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMake/cmake_uninstall.cmake.in /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMake/glfw3.pc.in /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMake/glfw3Config.cmake.in /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/docs/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm/glm/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui/CMakeLists.txt /usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeDependentOption.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckFunctionExists.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindDoxygen.cmake /usr/share/cmake/Modules/FindFontconfig.cmake /usr/share/cmake/Modules/FindFreetype.cmake /usr/share/cmake/Modules/FindOpenGL.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindVulkan.cmake /usr/share/cmake/Modules/FindX11.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/alix/Documents/RayTracing/CMakeLists.txt /home/alix/Documents/RayTracing/RayTracing/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/Walnut/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMake/cmake_uninstall.cmake.in /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMake/glfw3.pc.in /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMake/glfw3Config.cmake.in /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm/glm/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui/CMakeLists.txt /usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeDependentOption.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckFunctionExists.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindDoxygen.cmake /usr/share/cmake/Modules/FindFontconfig.cmake /usr/share/cmake/Modules/FindFreetype.cmake /usr/share/cmake/Modules/FindOpenGL.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindVulkan.cmake /usr/share/cmake/Modules/FindX11.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake: phony
+build /home/alix/Documents/RayTracing/CMakeLists.txt /home/alix/Documents/RayTracing/RayTracing/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/Walnut/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMake/cmake_uninstall.cmake.in /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMake/glfw3.pc.in /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMake/glfw3Config.cmake.in /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/docs/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glfw/src/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/glm/glm/CMakeLists.txt /home/alix/Documents/RayTracing/Walnut-cmake/vendor/imgui/CMakeLists.txt /usr/share/cmake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeDependentOption.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakePackageConfigHelpers.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckFunctionExists.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindDoxygen.cmake /usr/share/cmake/Modules/FindFontconfig.cmake /usr/share/cmake/Modules/FindFreetype.cmake /usr/share/cmake/Modules/FindOpenGL.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindPkgConfig.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/FindVulkan.cmake /usr/share/cmake/Modules/FindX11.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Linker/GNU-C.cmake /usr/share/cmake/Modules/Linker/GNU-CXX.cmake /usr/share/cmake/Modules/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/GNU.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake /usr/share/cmake/Modules/SelectLibraryConfigurations.cmake /usr/share/cmake/Modules/WriteBasicConfigVersionFile.cmake CMakeCache.txt CMakeFiles/3.31.6/CMakeCCompiler.cmake CMakeFiles/3.31.6/CMakeCXXCompiler.cmake CMakeFiles/3.31.6/CMakeSystem.cmake: phony
 
 
 #############################################

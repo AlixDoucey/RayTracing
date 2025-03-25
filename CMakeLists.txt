@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.16)
 project(RayTracing)
 
+# Generate compile_commands.json
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Set architecture to x64
 if(MSVC)
     set(CMAKE_GENERATOR_PLATFORM x64)
