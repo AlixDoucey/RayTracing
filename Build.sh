@@ -34,13 +34,22 @@ while [[ $# -gt 0 ]]; do
 done
 
 # Create build directory if it doesn't exist
-if [ ! -d "build" ]; then
-	mkdir build
-	echo "Created build directory"
+BUILD_DIR="build"
+if [ ! -d "$BUILD_DIR" ]; then
+	echo "Build directory not found. Creating '$BUILD_DIR' directory..."
+	mkdir -p "$BUILD_DIR"
+	if [ $? -eq 0 ]; then
+		echo "Successfully created build directory."
+	else
+		echo "Failed to create build directory. Check permissions."
+		exit 1
+	fi
+else
+	echo "Using existing build directory."
 fi
 
 # Navigate to build directory
-cd build
+cd "$BUILD_DIR"
 
 # Configure with CMake and build based on the detected OS
 echo "Configuring for $BUILD_TYPE build..."
