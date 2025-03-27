@@ -1,0 +1,7 @@
+CompileFlags:
+  Add: [
+    -IC:/VulkanSDK/x.y.z/Include,
+    -IC:/msys64/mingw64/include
+  ]
+  Compiler: g++
+  Remove: [-mwindows]

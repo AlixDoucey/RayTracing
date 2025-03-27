@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 project(RayTracing)
 
-# Generate compile_commands.json
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-
 # Set architecture to x64
 if(MSVC)
     set(CMAKE_GENERATOR_PLATFORM x64)
@@ -24,6 +21,13 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/${OUTPUT_DIR})
 
 # Set default startup project (for Visual Studio)
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT WalnutApp)
+
+find_package(Vulkan REQUIRED)
+include_directories(${Vulkan_INCLUDE_DIRS})
+find_package(OpenGL REQUIRED)
+
+# Generate compile_commands.json
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # Include subprojects
 add_subdirectory(Walnut-cmake)

@@ -2,6 +2,8 @@
 .vs/
 bin/
 bin-int/
+build/*
+!build/.gitkeep
 
 # Files
 *.vcxproj

@@ -1,8 +1,8 @@
-# Install script for directory: /home/alix/Documents/RayTracing/Walnut-cmake
+# Install script for directory: C:/Users/Rachida/Documents/RayTracing/Walnut-cmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/RayTracing")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,11 +27,6 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "0")
-endif()
-
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -39,21 +34,21 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "C:/Program Files/msys64/mingw64/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/cmake_install.cmake")
-  include("/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/imgui/cmake_install.cmake")
-  include("/home/alix/Documents/RayTracing/build/Walnut-cmake/vendor/glm/cmake_install.cmake")
-  include("/home/alix/Documents/RayTracing/build/Walnut-cmake/Walnut/cmake_install.cmake")
+  include("C:/Users/Rachida/Documents/RayTracing/build/Walnut-cmake/vendor/glfw/cmake_install.cmake")
+  include("C:/Users/Rachida/Documents/RayTracing/build/Walnut-cmake/vendor/imgui/cmake_install.cmake")
+  include("C:/Users/Rachida/Documents/RayTracing/build/Walnut-cmake/vendor/glm/cmake_install.cmake")
+  include("C:/Users/Rachida/Documents/RayTracing/build/Walnut-cmake/Walnut/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/alix/Documents/RayTracing/build/Walnut-cmake/install_local_manifest.txt"
+  file(WRITE "C:/Users/Rachida/Documents/RayTracing/build/Walnut-cmake/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
