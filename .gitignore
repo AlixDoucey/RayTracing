@@ -4,6 +4,8 @@ bin/
 bin-int/
 build/*
 .idea/
+cmake-build-debug/
+cmake-build-release/
 .cache/
 
 # Files
