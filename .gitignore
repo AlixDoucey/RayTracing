@@ -3,7 +3,8 @@
 bin/
 bin-int/
 build/*
-!build/.gitkeep
+.idea/
+.cache/
 
 # Files
 *.vcxproj

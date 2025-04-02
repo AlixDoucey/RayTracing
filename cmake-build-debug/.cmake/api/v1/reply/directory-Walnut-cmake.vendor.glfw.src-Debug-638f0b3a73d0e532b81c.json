@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"Walnut-cmake/vendor/glfw/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 357,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/Debug-Windows-x64/libglfw3.a"
+			],
+			"targetId" : "glfw::@8eec4f0ea260a35ad828",
+			"targetIndex" : 2,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Walnut-cmake/vendor/glfw/src",
+		"source" : "Walnut-cmake/vendor/glfw/src"
+	}
+}

@@ -60,14 +60,14 @@ if [ "$IS_WINDOWS" = true ]; then
 
 	# Build the project with make
 	echo "Building with make (Windows)..."
-	make
+	make -j 12
 else
 	# Linux configuration with Ninja
 	cmake -G Ninja -DCMAKE_BUILD_TYPE=$BUILD_TYPE ..
 
 	# Build the project with ninja
 	echo "Building with ninja (Linux)..."
-	ninja
+	ninja -j 12
 fi
 
 # Store the exit code

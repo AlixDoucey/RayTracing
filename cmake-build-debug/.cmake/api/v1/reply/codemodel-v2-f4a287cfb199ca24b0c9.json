@@ -1,0 +1,309 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Walnut-cmake",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Walnut-cmake-Debug-7effd9b07bf87db1507e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Walnut-cmake"
+				},
+				{
+					"build" : "Walnut-cmake/vendor/glfw",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Walnut-cmake.vendor.glfw-Debug-d8c4392fe4d3971a471b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Walnut-cmake/vendor/glfw",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Walnut-cmake/vendor/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Walnut-cmake.vendor.glfw.src-Debug-638f0b3a73d0e532b81c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "Walnut-cmake/vendor/glfw/src",
+					"targetIndexes" : 
+					[
+						2,
+						6
+					]
+				},
+				{
+					"build" : "Walnut-cmake/vendor/glfw/docs",
+					"jsonFile" : "directory-Walnut-cmake.vendor.glfw.docs-Debug-305ba949abde400eb2ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "Walnut-cmake/vendor/glfw/docs"
+				},
+				{
+					"build" : "Walnut-cmake/vendor/imgui",
+					"jsonFile" : "directory-Walnut-cmake.vendor.imgui-Debug-f50179e0691d4831889d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "Walnut-cmake/vendor/imgui",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Walnut-cmake/vendor/glm",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-Walnut-cmake.vendor.glm-Debug-72d431bc77931e4e1906.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "Walnut-cmake/vendor/glm"
+				},
+				{
+					"build" : "Walnut-cmake/vendor/glm/glm",
+					"jsonFile" : "directory-Walnut-cmake.vendor.glm.glm-Debug-d6ec296939cae335e424.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 3,
+					"source" : "Walnut-cmake/vendor/glm/glm",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Walnut-cmake/Walnut",
+					"jsonFile" : "directory-Walnut-cmake.Walnut-Debug-221fcfee005e93c6867d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "Walnut-cmake/Walnut",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "RayTracing",
+					"jsonFile" : "directory-RayTracing-Debug-e439074ffb72758d308a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "RayTracing",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						9
+					],
+					"name" : "RayTracing",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "imgui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6,
+						7
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "Walnut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 9,
+					"id" : "RayTracing::@d9664f7ffce57242aaab",
+					"jsonFile" : "target-RayTracing-Debug-f5f83c10937515acc5d9.json",
+					"name" : "RayTracing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "Walnut::@1124474d17d4f167708b",
+					"jsonFile" : "target-Walnut-Debug-b2f3d366b199492b1560.json",
+					"name" : "Walnut",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@8eec4f0ea260a35ad828",
+					"jsonFile" : "target-glfw-Debug-2d9fb55a2b3ca1fde7b6.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "glm::@1748d2ab784a0a8e9168",
+					"jsonFile" : "target-glm-Debug-4f22f597ba9c984b52e9.json",
+					"name" : "glm",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "imgui::@6caefba1b568411c9ff6",
+					"jsonFile" : "target-imgui-Debug-ab5528b3d9f4c22b5197.json",
+					"name" : "imgui",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@8148d592e4458627db41",
+					"jsonFile" : "target-uninstall-Debug-a142569784f9e53deb9f.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@8eec4f0ea260a35ad828",
+					"jsonFile" : "target-update_mappings-Debug-65d91db24fb447fcd3af.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Rachida/Documents/RayTracing/cmake-build-debug",
+		"source" : "C:/Users/Rachida/Documents/RayTracing"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
