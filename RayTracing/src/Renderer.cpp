@@ -78,11 +78,17 @@ glm::vec4 Renderer::PerPixel(glm::vec2 coord) {
   glm::vec3 hitPoint = rayOrigin + rayDirection * closestT;
   glm::vec3 normal = glm::normalize(hitPoint);
 
-  glm::vec3 lightDir = glm::normalize(glm::vec3(-1, -1, -1));
+  // glm::vec3 lightDir = glm::vec3(-1, -1, -1);
 
-  float d = glm::max(glm::dot(normal, -lightDir), 0.0f); // == cos(angle)
+  float d = glm::max(glm::dot(normal, -glm::normalize(lightDir)), 0.0f); // == cos(angle)
 
-  glm::vec3 sphereColor(1, 0, 1);
+  glm::vec3 sphereColor;
+  if (showNormal) {
+    sphereColor = normal * 0.5f + 0.5f;
+  } else {
+    sphereColor = glm::vec3(colorArr[0], colorArr[1], colorArr[2]);
+  }
+
   sphereColor *= d;
   return glm::vec4(sphereColor, 1.0f);
 }

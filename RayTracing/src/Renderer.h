@@ -1,5 +1,6 @@
 #pragma once
 #include "Walnut/Image.h"
+#include "glm/fwd.hpp"
 #include "glm/glm.hpp"
 #include <memory>
 
@@ -11,6 +12,10 @@ public:
   void Render();
 
   std::shared_ptr<Walnut::Image> GetFinalImage() const { return m_FinalImage; };
+
+  glm::vec3 lightDir = glm::vec3(-1.0f, -1.0f, -1.0f);
+  float colorArr[3]{1, 1, 1};
+  bool showNormal;
 
 private:
   glm::vec4 PerPixel(glm::vec2 rayDirection);

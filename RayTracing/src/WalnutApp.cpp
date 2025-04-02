@@ -14,9 +14,18 @@ public:
   virtual void OnUIRender() override {
     ImGui::Begin("Settings");
     ImGui::Text("Last render: %.3fms", m_LastRenderTime);
-    if (ImGui::Button("Render")) {
-      Render();
-    }
+
+    ImGui::Text("Light direction");
+    ImGui::SliderFloat("x", &m_Renderer.lightDir.x, -1.0f, 1.0f);
+    ImGui::SliderFloat("y", &m_Renderer.lightDir.y, -1.0f, 1.0f);
+    ImGui::SliderFloat("z", &m_Renderer.lightDir.z, -1.0f, 1.0f);
+
+    ImGui::Text("Sphere color");
+
+    ImGui::ColorEdit3("<-- Color picker", m_Renderer.colorArr, 0);
+
+    ImGui::Checkbox("Show normal map", &m_Renderer.showNormal);
+
     ImGui::End();
 
     ImGui::PushStyleVar(ImGuiStyleVar_WindowPadding, ImVec2(0.0f, 0.0f));
