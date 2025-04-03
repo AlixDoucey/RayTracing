@@ -13,17 +13,17 @@ using namespace Walnut;
 Camera::Camera(float verticalFOV, float nearClip, float farClip)
     : m_VerticalFOV(verticalFOV), m_NearClip(nearClip), m_FarClip(farClip) {
   m_ForwardDirection = glm::vec3(0, 0, -1);
-  m_Position = glm::vec3(0, 0, 3);
+  m_Position = glm::vec3(0, 0, 6);
 }
 
-void Camera::OnUpdate(float ts) {
+bool Camera::OnUpdate(float ts) {
   glm::vec2 mousePos = Input::GetMousePosition();
   glm::vec2 delta = (mousePos - m_LastMousePosition) * 0.002f;
   m_LastMousePosition = mousePos;
 
   if (!Input::IsMouseButtonDown(MouseButton::Right)) {
     Input::SetCursorMode(CursorMode::Normal);
-    return;
+    return false;
   }
 
   Input::SetCursorMode(CursorMode::Locked);
@@ -34,8 +34,11 @@ void Camera::OnUpdate(float ts) {
   glm::vec3 rightDirection = glm::cross(m_ForwardDirection, upDirection);
 
   float speed = 5.0f;
-
   // Movement
+  if (Input::IsKeyDown(KeyCode::LeftShift)) {
+    speed = 10.0f;
+  }
+
   if (Input::IsKeyDown(KeyCode::W)) {
     m_Position += m_ForwardDirection * speed * ts;
     moved = true;
@@ -74,6 +77,7 @@ void Camera::OnUpdate(float ts) {
     RecalculateView();
     RecalculateRayDirections();
   }
+  return moved;
 }
 
 void Camera::OnResize(uint32_t width, uint32_t height) {

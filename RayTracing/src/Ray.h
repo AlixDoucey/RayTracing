@@ -2,7 +2,7 @@
 
 #include "glm/glm.hpp"
 
-typedef struct {
+struct Ray {
   glm::vec3 Origin;
   glm::vec3 Direction;
-} Ray;
+};
