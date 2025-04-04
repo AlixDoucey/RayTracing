@@ -18,11 +18,17 @@ public:
 
     Material &pinkSphere = m_Scene.Materials.emplace_back();
     pinkSphere.Albedo = {1.0f, 0.0f, 1.0f};
-    pinkSphere.Roughness = 0.0f;
+    pinkSphere.Roughness = 0.4f;
 
     Material &blueSphere = m_Scene.Materials.emplace_back();
     blueSphere.Albedo = {0.4f, 0.45f, 1.0f};
-    blueSphere.Roughness = 0.1f;
+    blueSphere.Roughness = 0.2f;
+
+    Material &orangeSphere = m_Scene.Materials.emplace_back();
+    orangeSphere.Albedo = {0.8f, 0.6f, 0.4f};
+    orangeSphere.Roughness = 0.2f;
+    orangeSphere.EmissionColor = orangeSphere.Albedo;
+    orangeSphere.EmissionPower = 3.0f;
 
     {
       Sphere sphere;
@@ -36,6 +42,13 @@ public:
       sphere.Position = {0.0f, -101.0f, -0.0f};
       sphere.Radius = 100.0f;
       sphere.MaterialIndex = 1;
+      m_Scene.Spheres.push_back(sphere);
+    }
+    {
+      Sphere sphere;
+      sphere.Position = {2.7f, 12.0f, -0.9f};
+      sphere.Radius = 8.0f;
+      sphere.MaterialIndex = 2;
       m_Scene.Spheres.push_back(sphere);
     }
   }
@@ -55,11 +68,6 @@ public:
     if (ImGui::Button("Reset")) {
       m_Renderer.ResetFrameIndex();
     }
-
-    ImGui::Text("Light direction");
-    ImGui::SliderFloat("x", &m_Renderer.lightDir.x, -1.0f, 1.0f);
-    ImGui::SliderFloat("y", &m_Renderer.lightDir.y, -1.0f, 1.0f);
-    ImGui::SliderFloat("z", &m_Renderer.lightDir.z, -1.0f, 1.0f);
 
     ImGui::End();
 
@@ -84,6 +92,8 @@ public:
       ImGui::ColorEdit3("Albedo", glm::value_ptr(material.Albedo));
       ImGui::DragFloat("Roughness", &material.Roughness, 0.05f, 0.0f, 1.0f);
       ImGui::DragFloat("Metallic", &material.Metallic, 0.05f, 0.0f, 1.0f);
+      ImGui::ColorEdit3("Emission Color", glm::value_ptr(material.EmissionColor));
+      ImGui::DragFloat("Emission Power", &material.EmissionPower, 0.05f, 0.0f, FLT_MAX);
 
       ImGui::Separator();
       ImGui::PopID();

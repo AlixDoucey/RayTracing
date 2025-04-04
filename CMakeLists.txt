@@ -1,5 +1,8 @@
-cmake_minimum_required(VERSION 3.5.0)
+cmake_minimum_required(VERSION 3.31.0)
 project(RayTracing)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Set architecture to x64
 if(MSVC)
@@ -28,7 +31,6 @@ find_package(OpenGL REQUIRED)
 
 # Generate compile_commands.json
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-
 # Include subprojects
 add_subdirectory(Walnut-cmake)
 add_subdirectory(RayTracing)

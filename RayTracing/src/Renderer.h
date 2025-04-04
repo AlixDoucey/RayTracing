@@ -9,6 +9,7 @@
 #include <cstddef>
 #include <cstdint>
 #include <memory>
+#include <vector>
 
 class Renderer {
 public:
@@ -23,8 +24,6 @@ public:
   void Render(const Scene &scene, const Camera &camera);
 
   std::shared_ptr<Walnut::Image> GetFinalImage() const { return m_FinalImage; };
-
-  glm::vec3 lightDir = glm::vec3(-1.0f, -1.0f, -1.0f);
 
   void ResetFrameIndex() { m_FrameIndex = 1; }
   Settings &GetSettings() { return m_Settings; }
@@ -47,6 +46,8 @@ private:
 private:
   std::shared_ptr<Walnut::Image> m_FinalImage;
   Settings m_Settings;
+
+  std::vector<uint32_t> m_ImageHorizontalIter, m_ImageVerticalIter;
 
   const Scene *m_ActiveScene = nullptr;
   const Camera *m_ActiveCamera = nullptr;
