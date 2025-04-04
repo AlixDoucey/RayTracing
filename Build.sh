@@ -55,21 +55,20 @@ cd "$BUILD_DIR"
 echo "Configuring for $BUILD_TYPE build..."
 
 if [ "$IS_WINDOWS" = true ]; then
-	# Windows configuration with Unix Makefiles
-	cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=$BUILD_TYPE ..
-
-	# Build the project with make
-	echo "Building with make (Windows)..."
-	make -j 12
+    # Windows configuration with Unix Makefiles and static linking
+    cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DCMAKE_CXX_FLAGS="-static" ..
+    
+    # Build the project with make
+    echo "Building with make (Windows)..."
+    make -j 12
 else
-	# Linux configuration with Ninja
-	cmake -G Ninja -DCMAKE_BUILD_TYPE=$BUILD_TYPE ..
-
-	# Build the project with ninja
-	echo "Building with ninja (Linux)..."
-	ninja -j 12
+    # Linux configuration with Ninja
+    cmake -G Ninja -DCMAKE_BUILD_TYPE=$BUILD_TYPE ..
+    
+    # Build the project with ninja
+    echo "Building with ninja (Linux)..."
+    ninja -j 12
 fi
-
 # Store the exit code
 BUILD_RESULT=$?
 
