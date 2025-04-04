@@ -69,7 +69,6 @@ else
     echo "Building with ninja (Linux)..."
     ninja -j 12
 fi
-# Store the exit code
 BUILD_RESULT=$?
 
 # Return to the root directory
