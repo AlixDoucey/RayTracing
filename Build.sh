@@ -63,7 +63,8 @@ if [ "$IS_WINDOWS" = true ]; then
     make -j 12
 else
     # Linux configuration with Ninja
-    cmake -G Ninja -DCMAKE_BUILD_TYPE=$BUILD_TYPE ..
+    cmake -G Ninja -DCMAKE_BUILD_TYPE=$BUILD_TYPE -DCMAKE_CXX_FLAGS="-static-libstdc++ -static-libgcc"  ..
+
     
     # Build the project with ninja
     echo "Building with ninja (Linux)..."
